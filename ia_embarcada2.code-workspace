@@ -1,0 +1,10 @@
+{
+  "folders": [
+    {
+      "path": "HELLO_WORLD_TFLITE"
+    }
+  ],
+  "settings": {
+    "cmake.sourceDirectory": "${workspaceFolder}"
+  }
+}

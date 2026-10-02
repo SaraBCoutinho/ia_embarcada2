@@ -1,0 +1,5 @@
+[wokwi]
+version = 1
+diagram = "diagram.json"
+firmware = "build/HELLO_WORLD_TFLITE.bin"
+elf = "build/HELLO_WORLD_TFLITE.elf"
