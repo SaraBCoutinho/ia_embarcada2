@@ -1,5 +1,5 @@
 [wokwi]
 version = 1
 diagram = "diagram.json"
-firmware = "build/HELLO_WORLD_TFLITE.bin"
+firmware = "build/flasher_args.json"
 elf = "build/HELLO_WORLD_TFLITE.elf"
