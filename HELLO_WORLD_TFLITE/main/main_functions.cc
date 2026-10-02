@@ -95,7 +95,7 @@ void Setup() {
   inference_count = 0;
   initialized = true;
 
-  //printf("TFLite Micro sine model ready.\n");
+  printf("TFLite Micro sine model ready.\n");
 }
 
 
@@ -153,14 +153,14 @@ void Loop() {
   // Mostra X e Y
   // ==========================================
    
-  //printf(
-  //    "x = %.3f | y = %.3f\n",
-  //    static_cast<double>(x),
-  //    static_cast<double>(y)
-  //);
+  printf(
+      "x = %.3f | y = %.3f\n",
+      static_cast<double>(x),
+      static_cast<double>(y)
+  );
 
   // Mantem o output handler original
-  //HandleOutput(x, y);
+  HandleOutput(x, y);
 
   // ==========================================
   // Proxima inferencia
